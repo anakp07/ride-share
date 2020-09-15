@@ -17,9 +17,9 @@
 ########################################################
 # Step 2: Assign a data structure to each layer
 
-# TOP LEVEL: The different drivers --> A Hash
-# MIDDLE LAYER: Driver ID --> Nested in TOP LEVEL Driver is an Array with unique Driver IDs
-# BOTTOM LAYER:  Individual Rides Info --> Nested within array is a Hash with individual Ride Info Keys (Date/Cost/Rider_ID/Rating)
+# TOP LEVEL: A Hash of All Drivers info 
+# MIDDLE LAYER:  Is an Array with unique Driver IDs
+# BOTTOM LAYER:  Nested within array is a Hash with individual Ride Info Keys (Date/Cost/Rider_ID/Rating)
 
 
 ########################################################
